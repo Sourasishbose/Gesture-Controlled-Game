@@ -29,7 +29,7 @@ All packaged using PyInstaller for executable distribution.
 Python 3.8+
 pip installed
 2️⃣ Clone the Repository
-git clone https://github.com/Mehnaz2004/Gestured-Controlled-Car-Racing-Game.git
+git clone [https://github.com/Mehnaz2004/Gestured-Controlled-Car-Racing-Game.git](https://github.com/Sourasishbose/Gesture-Controlled-Game/)
 cd Gestured-Controlled-Car-Racing-Game
 3️⃣ Install Dependencies
 pip install -r requirements.txt
