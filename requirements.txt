@@ -1,0 +1,15 @@
+Flask
+numpy
+opencv-python
+mediapipe
+jsonschema
+pandas
+gunicorn
+requests
+pymongo
+<<<<<<< HEAD
+waitress
+=======
+bcrypt
+keyboard
+>>>>>>> a43c0b32305384c31059e502b4252f0811372ce3

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleS.css') }}">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="container">
+        <div class="form-section">
+            <h2>Signup</h2>
+            <form action="{{ url_for('signup') }}" method="POST">
+                <input type="email" name="email" placeholder="Enter Email" required>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <button type="submit">Signup</button>
+            </form>
+            <p>Already have an account? <a href="/login">Login here</a>.</p>
+        </div>
+
+        <div class="text-section">
+            <h2>Welcome to Gesture Controlled Gaming</h2>
+            <p>Create an account to get started!</p>
+        </div>
+    </div>
+
+    <div id="customAlert" class="custom-alert">
+        <p id="alertMessage"></p>
+        <button id="alertOkButton">OK</button>
+    </div>
+</body>
+</html>
